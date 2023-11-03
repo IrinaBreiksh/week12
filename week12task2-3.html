@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS 2.0. Практикум.</title>
+    <link rel="stylesheet" href="assets/week12task2-3.css" />
+
+    <link rel="stylesheet" href="assets/normalize.css" />
+  </head>
+
+  <body>
+    <h1>Калькулятор ИМТ</h1>
+    <section class="calculator">
+      <label for="weight"><strong>Вес (кг):</strong></label>
+      <input id="weight" type="number" />
+      <label for="height"><strong>Рост (см):</strong></label>
+      <input id="height" type="number" />
+      <button id="button">Рассчитать ИМТ</button>
+      <p id="calc-result"></p>
+    </section>
+    <section class="">
+      <ul>
+        <li>
+          ИМТ менее 18.5: Недостаточный вес. Это может указывать на
+          недостаточное питание или другие проблемы со здоровьем.
+        </li>
+        <li>
+          ИМТ от 18.5 до 24.9: Нормальный вес. В этом диапазоне считается, что
+          вес находится в здоровых пределах.
+        </li>
+        <li>
+          ИМТ от 25.0 до 29.9: Избыточный вес. В этой категории есть некоторый
+          риск развития связанных с ожирением заболеваний.
+        </li>
+        <li>
+          ИМТ от 30.0 до 34.9: Ожирение I степени. Риск развития заболеваний,
+          связанных с ожирением, значительно повышен.
+        </li>
+        <li>
+          ИМТ от 35.0 до 39.9: Ожирение II степени. Риск развития серьезных
+          заболеваний, таких как диабет и сердечно-сосудистые заболевания, очень
+          высок.
+        </li>
+        <li>
+          ИМТ 40 и выше: Тяжелое ожирение (ожирение III степени). Высокий риск
+          развития серьезных заболеваний и осложнений.
+        </li>
+      </ul>
+    </section>
+
+    <script src="./week12task2-3.js"></script>
+  </body>
+</html>
